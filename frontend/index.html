@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Phishing & Spam Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🛡️ Advanced AI Phishing Detector</h1>
+        <p>Paste your suspicious email or SMS text below:</p>
+        
+        <textarea id="emailText" placeholder="e.g. Dear Customer, your account is suspended. Click here to verify..."></textarea>
+        
+        <button id="checkBtn">🚀 Scan with AI</button>
+        
+        <!-- Result title, confidence, and reason fields. -->
+        <div id="resultBox" class="result-box hidden">
+            <h3 id="resultTitle"></h3>
+            <p><strong>Confidence:</strong> <span id="resultConfidence"></span>%</p>
+            <p><strong>Reason:</strong> <span id="resultReason"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Flask>=3.0,<4.0
+flask-cors>=4.0,<7.0
+scikit-learn>=1.6.1,<1.10
+joblib>=1.4,<2.0
+imbalanced-learn>=0.14,<0.15
+gunicorn>=23.0,<24.0
